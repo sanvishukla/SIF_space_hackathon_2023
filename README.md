@@ -1,18 +1,21 @@
-# SIF_space_hackathon_2023
-The problem statement involves employing a RESNet model to address the LULC Level 2 Classification task. The model architecture encompasses various elements and structures to accomplish this classification objective.
-<img width="943" alt="Screenshot 2024-02-27 at 11 10 19 PM" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/82580a12-e781-4e76-a4f5-bc50b27b9507">
-<img width="859" alt="" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/9d60d3a4-0fd9-41c5-ba87-4fce8f68bcf6">
-<img width="858" alt="" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/fb47b9ca-29ab-478e-a967-8a92938fc964">
-<img width="859" alt="" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/c8361e86-9df2-42e5-9367-309c25783dca">
-<img width="862" alt="" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/97ed191c-4931-4939-a359-d9a83eefcf59">
-<img width="855" alt="" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/a3d00029-bd66-4287-9f56-4abd17e7307e">
-<img width="858" alt="" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/336755c5-b945-4b89-893c-ead13889a542">
-<img width="857" alt="" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/07d54685-86a5-40a8-ae33-9c9d2ce4cdfa">
-<img width="854" alt="" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/ef3a7258-609d-4d25-aa8e-f78086a8399f">
-<img width="853" alt="" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/3a9586fa-17cb-4425-a020-66d7071b0f56">
-<img width="854" alt="" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/8c8b2c62-cd44-48c9-b796-1665aa02a89c">
-<img width="1440" alt="" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/8607c9a1-7906-4987-8a73-6c6f0745814e">
+# SIF-Space_Hackathon_2023
+The Deep Learning Model for the LULC Level 2 Classification Problem statement. 
+This Consists of a RESNet model to tackle the LULC Level 2 Classification Problem. The Model Architehture consits of Following Elements and Architehture.
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/e95fbe19-84fd-4147-9028-ba55512d80f6">
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/0ec67afd-841a-4bc0-bce6-5c89dd36f9d8">
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/0fc87bbe-286a-4088-b4d9-f71ae9e16fea">
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/2ee551f9-0415-40ff-9470-1d7b4a329a88">
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/fdbacb40-263e-44e0-bff2-0b0379511217">
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/3383ee97-ad1e-452e-b160-6cd6d34ec0c0">
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/e2824623-ac6c-47cc-b46b-e9c309868731">
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/2ed8935a-fc70-47f0-ae7d-eb6a368718b7">
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/09c07666-c228-4980-ac97-1d4f81d26b24">
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/aac7b45d-eee5-41e2-be24-f37c7f59953c">
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/77dd98b4-5f19-413c-ab82-cd8096abbae5">
+<img width="824" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/baae494b-2797-4ed4-9dd6-c841701c63a2">
 <H3>Results On Training</H3>
-Following the training of the model on the Sentinel-2 dataset sourced from Kaggle's EuroSAT classification for initial parameter training, which comprises 23,555,082 trainable parameters within the deep neural network, the resulting test outcomes include the ROC curve.
-<img width="1402" alt="Screenshot 2024-02-27 at 11 07 38 PM" src="https://github.com/sanvishukla/SIF_space_hackathon_2023/assets/161497545/28a76e69-fa3d-43f6-86d1-e42cafa14027">
-Despite encountering challenges with processing the provided .TIF images within the desired timeframe, we successfully trained the model on 27,000 (64,64) size images of labeled land use instances, meticulously following the specified guidelines. Remarkably, this initial training phase yielded an impressive test accuracy of 89.78%. Looking ahead, we anticipate even greater advancements in performance as we continue to train the model with the seasonal dataset provided, fostering optimism for enhanced results in the near future.
+After Training the Model on the Sentinal-2 Dataset Obtained from Kaggle EuroSAT classification for initial Training of Parameters which consists of 23,555,082 induvidual trainable parammeters of this Deep Neural Network, We obtained the following test results of ROC Curve:-
+
+<img width="357" alt="image" src="https://github.com/dark-horiznz/SIF-Space_Hackathon_2023/assets/141896962/7fc812fe-1a3b-46ea-997d-365ed6719ba8">
+
+However we could not process the provided .TIF Images in time to reconvert them inorder to train the model on local image Datasets. Still this model after being trained on 27000 (64,64) size images of labelled land use instances which are corectlly labelled as per the provided specifications. We have obtained a Test accuracy of 89.78% on this initial training phase which will be further improved given further time for training on the Seasonal Data-Set Provided
